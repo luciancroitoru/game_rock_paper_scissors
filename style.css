@@ -1,0 +1,38 @@
+:root{
+    --sections-margin-bottom: 3rem;
+    --column-gap: 2rem;
+}
+
+h1{
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: var(--column-gap);
+}
+
+.intro{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: var(--column-gap);
+}
+
+.user-options{
+    display: flex;
+    justify-content: center;
+    column-gap: var(--column-gap);
+    margin-bottom: var(--column-gap);
+}
+
+.action-button{
+    font-size: 2rem;
+    width: 12rem;
+    height: 6rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: teal;
+}
+
+.display-div{
+    font-size: xx-large;
+    text-align: center;
+    display: block;
+}
